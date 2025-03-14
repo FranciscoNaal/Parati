@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Carta Interactiva</title>
+</head>
+<body>
+  <div class="carta" onclick="abrirCarta()">
+    💌 Abre la carta
+  </div>
+
+  <div class="contenido" id="contenido">
+    <p>¿Quieres salir conmigo?</p>
+    <div class="botones">
+      <button id="btnSi" onclick="mostrarRespuesta()">Sí</button>
+      <button id="btnNo" onmouseover="moverBoton()">No</button>
+    </div>
+  </div>
+
+  <div class="respuesta" id="respuesta">
+    <p>¡Sabía que dirías que sí! 😍 Nos vemos pronto</p>
+    <img src="https://media.giphy.com/media/jRlP4zbERYW5HoCLvX/giphy.gif" alt="Gatito" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
